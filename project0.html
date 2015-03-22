@@ -1,0 +1,194 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>
+The Basics of the Web and HTML
+</title>
+</head>
+<body>
+<p>Part 1: Develop  <b>technological empaty</b> to understand the internet and interactions.<p>
+<p>Part 2: Use <b>HTML tags</b> to create a simple <b>HTML document</b></p>
+
+<br>
+<br>
+
+<p><b>The basics of the web</b></p>
+
+<br>
+
+
+The web<br>
+<br>
+HTML (main document type of the web)<br>
+<br>
+URLs (how we refer to the documents on the web)<br>
+<br>
+HTTP (running protocol of the web)<br>
+<br>
+Web Applications<br>
+
+The word wide web is a collection of HTML documents.<br>
+<b>HTML</b> stands for <b>H</b>yper <b>T</b>ext <b>M</b>arkup <b>L</b>anguage.<br>
+HTML is the basis for almost every webpage.<br>
+All sorts of files can exist on line. HTML <em> glues</em> all together. <br>
+The links between the pages are called Hiperlinks (or just links).<br>
+The internet has something about 30 billion pages.<br>
+<br>
+<br>
+
+<p><b>Major Pieces of Internet</b></p>
+
+<br>
+User<br>
+computer running a web browser<br>
+the internet<br>
+and servers<br>
+<br>
+<br>
+Our browser makes requests via the Internet to servers. These requests use a protocol called http and the servers respond with files that our browser displays. Some examples of browsers are Internet Explorer, Chrome, Firefox. A browser is a program thar runs on our computer to display files found on the web.<br>
+The servers are computers optimized for hosting and access files.<br>
+Http is a very simple protocol that our browser uses to communicate with the servers.<br>
+<br>
+<br>
+
+<p><b>HTML - Hypertext Markup Language (the heart of the web)</b></p>
+
+<br>
+HTML is made up of <em>text content</em>, which is what you see. It is made up of <em>markup</em>, which is what that content looks like or how it is arranged. It is made up of <em>references</em> to other documents, like images and videos, or any other files. And it can be made up of<em> link</em>s to other pages.<br>
+Plain text is plain text in HTML, for the most part. But if we want to make the text look different, we need to use something called markup, which is one of the other facets of HTML.
+<br>
+Tags
+<br>
+HTML markup is made up of things called tags. The way a tag is structured: you have got, a less than symbol, the tag name, a greater than symbol, the tag contents, which can actually be other tags or it could just be text, another less than symbol, a slash, the name, and a greater than symbol.
+<br>
+The first one is the opening tag, the last one, with the slash, is the closing tag. The whole thing is an element.
+<br>
+<b> Bold tag </b> everything that is between these tags appears bold.
+<br>
+<em> emphasis tag </em> everything that is between these tags appears italic.
+<br>
+Html can be nested.
+<br>
+<br>
+
+<p><b>Computes are stupid</b></p>
+
+<br>
+Computers only understand unambiguous commands, with a previous stablished syntax. Any typos or mistakes could generate catastrophic failure.
+<br>
+<br>
+
+<p><b>HTML attributes</b></p>
+
+<br>
+Attribute is a property of an HTML element.
+<br>
+We still have our opening tag name and, and a closing tag but we have an attribute that have a name and that is equal a value. The value appears inside cotes that are inside the opening tag, after de equal sign.
+<br>
+Tags can have multiple attributes.
+<br>
+An example of a tag that uses an attribute is the anchor tag (a tag).
+<br>
+Anchors are for making links. We have the <b>a</b> of the opening <em>anchor tag</em> followed by <em>the name of the attribute</em> (<b>href</b>),<em> the equal sign</em> and<em> the value inside cotes</em>. The value in this case is an URL. After the opening tag with the attribute and the value, we have<em> the contents</em> and<em> the ending tag</em> with the slash and the a. The ending tag is the same as the ones of the elements without attributes. The content will be the only thing that will appear at the browser, and it will be a link to the URL put as the value. 
+<br>
+<br>
+
+<p><b>The image tag (img).</b></p>
+
+<br>
+The image tag (img) is for including images. It has the following structure. The opening IMG tag. This is an example of how the web service can serve all sorts of different types of content
+It has an attribute called source, SRC equals the URL. This is the URL of the image to download. And then there is another attribute called alt. Which stands for alternate, and this is text that gets displayed when the image does not load. If our browser requested a URL that does not exist, this is the text that gets displayed, and it is also for blind people. 
+<br>
+Every tag that we have talked about so far has had a closing tag. Images do not. This is the entire tag. There is no content to an image. This is called a void tag.
+<br>
+A void tag has no content, and because it has no content, it does not need a closing tag.
+<br>
+Images just appear in line with text.
+<br>
+<br>
+
+<p><b>Whitespace</b></p>
+
+<br>
+When we enter text in the, in the editor, if we put text on multiple lines, when we render it in HTML it render all on a single line.
+<br>
+In HTML all whitespace, new lines, tabs, spaces all turn into a single space. To force our HTML to have multiple lines we can use another tag called the <b> br</b> tag.
+<br>
+Br stands for break, and it is a <b>void tag</b>. And we put this after any lines that we want to appear on multiple lines. And we can even enter multiple br tags if we want multiple line breaks.
+<br>
+Another way of doing line breaks is to use the <b>p</b> tag. This stands for paragraph. This is not a void tag. So the p tag has content and because it is not a void tag, it has a opening tag, the content and the closing tag, and this will render as one paragraph.
+<br>
+<br>
+
+<p><b>Inline versus Block</b></p>
+
+<br>
+The <b>br</b> tag is what we call <em>inline</em>, and the <b>p</b> tag, is what we call <em>block</em>. 
+<br>
+The br tag just end a line. 
+<br>
+The br tag just basically says the line ends here and the following will appear at the next line.
+<br>
+The p tag works differently. The p tag actually makes an invisible box. 
+<br>
+So instead of just rendering text, blank line, what this is actually rendering is an invisible box.
+<br>
+And that is what the p tag does. And this invisible box can have height, and it can have width, where inline elements are just text.
+<br>
+Inline and block elements have kind of a different behavior.
+<br>
+So far, all the elements we have learned other than p are inline elements.
+<br>
+<em><b> b, em, br, even img are inline elements</b></em>.
+<br>
+So far, the only block element we have learned is the p element.
+<br>
+<br>
+
+<p><b>Container elements</b></p>
+
+<br>
+Elements that do nothing but contain stuff inside of them. These elements can be used to create web pages with complex structures.
+<br>
+<br>
+<p><em>span and div</em></p> 
+<br>
+Span and div are both normal elements.
+<br>
+They can both have content.
+<br>
+And the only difference between these two is, span is inline, and div is block.
+<br>
+These elements do not do anything other than just contain their content. And there is a way to attach styles to them, to adjust different behaviors of how they display.
+<br>
+CSS it is a separate language for adding styles to your documents or changing how different text looks.
+<br>
+We will be using spans and divs a lot for controlling how text is laid out.
+<br>
+But the important thing to remember is that spans are inline and divs are block.
+<br>
+<br>
+
+<p><b>The structure of an HTML document</b></p>
+
+<br>
+Now, what we have been seeing before is just little markup. 
+<br>
+But an actual complete HTML document has quite a bit more in it.
+<br>
+First we have the DOCTYPE; what kind of HTML. This used to be a lot more complex. But now that we are using HTML5, it has a nice clean simple doctype, which is just the string HTML. Very simple.
+<br>
+Then we have a tag. This is the basically the opening HTML tag and the closing HTML tag. This surrounds the entire rest of the document. That is all it does, is it surrounds the entire document.
+<br>
+Now we have other tag, the head. This part of the document has metadata and another random stuff. If we were to include JavaScript and CSS,  that would be included in the head section.
+<br>
+Now we also have the tittle tag, and this is the title of the page. This is what would appear in the top of your browser window, or in, in your browser tab, the content of the tittle tag.
+<br>
+Then we have the body tag, and the body tag is the actual contents of the document. And basically, we have been, we have been working just in the body tag in this lesson. And for most of this course, we are really just going to be focusing on generating the content that fits between the body tags.
+<br>
+All this other stuff is important but it does not change very often and, it is pretty simple, but it is pretty important for it to be there. All of the interesting stuff though happens between the body tags. 
+<br>
+An HTML document has a head section and that is where we have our title, references to any CSS files, and Java script files, and that sort of stuff. And then we have the body section and this is where the actual contents of the document, the stuff that we see on the screen. This course where mostly going to focus on the body section and there is a lot of content that can go in there.
+<br>
+</body>
+</html>
